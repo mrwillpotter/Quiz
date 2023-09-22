@@ -1,0 +1,74 @@
+
+
+/* Keeps the link to highscores and timer on the top of the page  */
+header {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    padding: 35px;
+
+}
+
+
+/* Keeps the start screen, questions, and score presenter in the center of the page  */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 500px;
+}
+
+/* Large font size for emphasis */
+h1, h3 {
+    font-size: 90px;
+}
+h2 {
+    font-size: 50px;
+}
+
+
+/* Keeps the start screen, questions, and score presenter in the center of the page  */
+#start-screen,
+#question-container,
+#end-screen {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    padding: 25px;
+    text-align : center;
+    align-items: center;
+}
+
+.question-btn {
+    margin: 5px;
+}
+
+/* Qustion cards */
+.current-question {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align : center;
+}
+.question {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align : center;
+}
+
+/* Right and Wrong alerts*/
+#right-or-wrong {
+    margin-top: -550px;
+}
+
+/* End screen */
+#end-screen p {
+    font-size: 20px;
+}
+
+#score {
+ font-size: 30px;
+}

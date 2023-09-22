@@ -1,0 +1,38 @@
+
+
+/* Keeps the link to highscores and timer on the top of the page  */
+header {
+    padding: 35px;
+    
+}
+/* Keeps the scoreboard more aesthetically balanced */
+main {
+    margin: 20px 450px;
+}
+
+/* Large font size for emphasis */
+h1 {
+    font-size: 90px;
+}
+
+
+/* Keeps the score presenter in the center of the page  */
+#scoreboard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    margin-top: 30px;
+    padding: 25px;
+    text-align : center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    font-size: 50px;
+    font-weight: bold;
+    color: darkgreen;
+}
